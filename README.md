@@ -1,22 +1,48 @@
-@"
-# Business Metrics Analyzer
+\# Business Metrics Analyzer
+
+
 
 Учебный проект по дисциплине «Проектирование и разработка бизнес-ориентированного программного обеспечения».
 
-## Бизнес-задача
 
-Расчёт и визуализация ключевых показателей эффективности (KPI) предприятия.
 
-## Стек
+\## Бизнес-задача
 
-- Python 3.10+
-- pandas
-- matplotlib
 
-## Запуск
+
+Расчёт и визуализация ключевых показателей эффективности (KPI) предприятия: выручка, средняя выручка, рентабельность.
+
+
+
+\## Стек
+
+
+
+\- Python 3.10+
+
+\- pandas
+
+\- matplotlib
+
+
+
+\## Запуск
+
+
 
 python -m venv .venv
-source .venv/bin/activate
+
+.venv\\Scripts\\activate
+
 pip install -r requirements.txt
+
 python main.py
-"@ | Out-File -FilePath "README.md" -Encoding utf8
+
+
+
+\## Автор
+
+
+
+Кремезная Марина, группа 61123-38.03.05ба(2)
+
